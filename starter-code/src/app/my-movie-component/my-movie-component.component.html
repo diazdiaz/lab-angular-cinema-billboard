@@ -1,0 +1,19 @@
+
+
+<div>
+      <ul class="info">
+        <div class="info1">
+          <h3>Room {{movie.room}} - {{movie.title}}</h3>
+          <img [src]="movie.poster" alt="poster">
+        </div>
+        <div class="info2">
+          <li> <b>Genres</b> {{movie.genres}}</li>
+          <li><b>Year</b> {{movie.year}}</li>
+          <li><b>Director</b> {{movie.director}}</li>
+          <li><b>Cast</b> {{movie.actors}}</li>
+          <li><b>Schedule</b> {{movie.hours}}</li>
+          <li><h4>Synopsis</h4>{{movie.synopsis}}</li>
+          <a [routerLink]="['/home']" id="buttons" class="btn">Home</a>
+        </div>
+      </ul>
+    </div> 
